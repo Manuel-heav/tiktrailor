@@ -1,0 +1,75 @@
+.header {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 69px;
+  border-bottom: 1px solid gray;
+}
+
+.header__image {
+  margin-top: -50px;
+  width: 140px;
+  height: 140px;
+}
+
+.header__inputSection {
+  margin-left: 50px;
+  margin-top: -30px;
+  width: 310px;
+  border: none;
+  border-radius: 30px;
+  background-color: #f2f2f1;
+  height: 50px;
+  font-size: 18px;
+}
+.header__input .MuiSvgIcon-root {
+  margin-top: 12px;
+  margin-right: 20px;
+}
+.header__searchContainer {
+  background-color: #f2f2f1;
+  border-radius: 30px;
+}
+
+.header__inputSection:focus {
+  outline: none;
+}
+.header__icons {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__uploadButton {
+  border: none;
+  height: 50px;
+  font-size: 20px;
+  width: 120px;
+  background: white;
+}
+
+.header__uploadButton:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.header__loginButton {
+  background-color: #fe2c55;
+  height: 45px;
+  width: 140px;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  font-size: 20px;
+  border-radius: 8.5px;
+  transition: 0.4s;
+}
+.header__loginButton:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.header__icons > .MuiSvgIcon-root {
+  margin-top: 15px;
+}
